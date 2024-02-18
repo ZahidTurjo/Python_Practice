@@ -1,0 +1,14 @@
+a=2.2
+b=2.7678567547654
+print(int(a))
+print(round(a))
+print(int(b))
+print(type(round(b)))
+print(round(11.5))
+print(round(12.5))
+print(round(674,-5))
+print(round(27,-1))
+print(round(665,-1))
+print(round(675,-1))
+print(round(1212,-2))
+print(round(467,-3))
