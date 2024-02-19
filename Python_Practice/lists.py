@@ -16,7 +16,6 @@
 numbers=[3,4,7,20]
 # numbers.insert(2,40)
 # print(numbers)
-
 # numbers.extend([2,3,54,67])
 numbers[1]=3
 print(numbers)

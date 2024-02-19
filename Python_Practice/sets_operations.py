@@ -1,0 +1,15 @@
+set1={"turjo","zahid","somrat"}
+set2={"zahid","roki","rohim"}
+tuple=(1,23,4)
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1.symmetric_difference(set2))
+# print(set1.union(tuple))
+# (set1.update(set2))
+# print(set1)
+print(set1.difference(set2))
+print("symmet_def",set1.symmetric_difference(set2))
+# set1.difference_update(set2)
+# print("difference update ",set1)
+set1.symmetric_difference_update(set2)
+print(set1)
