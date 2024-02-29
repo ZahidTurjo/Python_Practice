@@ -17,6 +17,6 @@ elif your_choice == p and computer_choice == r:
 elif your_choice == computer_choice:
     print("Draw the match")
 else:
-    print("Your friends will won the game")
+    print("Computer won the game")
 
 
