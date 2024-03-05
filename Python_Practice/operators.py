@@ -28,4 +28,12 @@
 # a=False
 # print(not(a))     #------> not operator = it will reverse the result
 
+def formatter_name(f_name,l_name):
+    for_f=f_name.title()
+    fro_l=l_name.title()
+    print(f"{for_f} {fro_l}") 
+formatter_name("turjo","Zahid")       
+
+
+
 
