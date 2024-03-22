@@ -1,0 +1,25 @@
+import turtle
+
+tom=turtle.Turtle()
+tom.pencolor('green')
+tom.fillcolor("red")
+tom.shape("turtle")
+tom.forward(100 )
+tom.begin_fill()
+tom.circle(100)
+tom.end_fill()
+tom.rt(90)
+tom.penup()
+tom.forward(100)
+tom.pendown()
+tom.pensize(10)
+tom.fillcolor("pink")
+tom.begin_fill()
+tom.circle(50)
+tom.end_fill()
+tom.goto(-20,5)
+tom.circle(50)
+# tom.color("red")
+
+
+tom.screen.mainloop()
