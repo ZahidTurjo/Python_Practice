@@ -159,6 +159,20 @@ class LinkedList:
             counter+=1
             temp=temp.next
         print(result)
+# write a program to reverse a linked list containing integer data
+    def reverse(self):
+        prev_node=None
+        curr_node=self.head
+
+        while curr_node != None:
+            next_node=curr_node.next
+            curr_node.next=prev_node
+            prev_node=curr_node
+            curr_node=next_node
+        self.head =prev_node
+
+
+        
 
 L=LinkedList()
 L.insert_head(1)
@@ -169,5 +183,5 @@ L.insert_head(4)
 
 print(L)
 
-L.sum_odd_nodes()
+L.reverse()
 print(L)
